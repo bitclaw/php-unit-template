@@ -1,0 +1,32 @@
+{
+  "name": "bitclaw/php-unit-template",
+  "type": "library",
+  "description": "PHP exercises",
+  "keywords": ["php","phpunit"],
+  "homepage": "http://bitclaw.com",
+  "license": "MIT",
+  "require": {
+    "php": "^5.4 || ^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.5 || ^5.0.5",
+    "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0",
+    "phpunit/php-timer": "^1.0.7",
+    "mockery/mockery":    "~0.9.4",
+    "whatthejeff/emoji-phpunit-resultprinter": "~1.0"
+  },
+  "autoload": {
+    "psr-4": { "PHPCode\\": "src/PHPCode" }
+  },
+  "autoload-dev": {
+    "psr-4": { "PHPCode\\Test\\": "tests/Unit/PHPCode" }
+  },
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Daniel C.",
+      "email": "bitclaw@gmail.com",
+      "homepage": "http://bitclaw.com/"
+    }
+  ]
+}
