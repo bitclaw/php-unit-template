@@ -18,7 +18,7 @@ class Algorithm {
      * @param $number int
      * @return int
      */
-    public function calculate($number) {
-
+    public function addAllNumbers($number) {
+        return ($number*($number+1)) / 2;
     }
 }
